@@ -1,0 +1,70 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="numbers.js"></script>
+        <script type="text/javascript" src="operations.js"></script>
+    </header>
+  <body>
+    <h1>Calculator Design Using HTML Layout</h1>
+    <div class="container">
+      <div class="header">Calculator</div>
+      <input type="text" class="result" id="result" readonly/>
+      <!-- <div class="first-row">
+        <input type="button" name="" value="&radic;" class="global" />
+        <input type="button" name="" value="(" class="global" />
+        <input type="button" name="" value=")" class="global" />
+        <input type="button" name="" value="%" class="global" />
+      </div> -->
+      <div class="first-row">
+        <input
+            type="button"
+            name=""
+            value="Clean All"
+            class="red superbig white-text top-margin"
+            onclick="clean()"
+          />
+      </div>
+      <div class="second-row">
+        <input type="button" name="" value="7" class="global" onclick="clickNumber(7)"/>
+        <input type="button" name="" value="8" class="global" onclick="clickNumber(8)"/>
+        <input type="button" name="" value="9" class="global" onclick="clickNumber(9)"/>
+        <input type="button" name="" value="/" class="global" onclick="divide()"/>
+      </div>
+      <div class="third-row">
+        <input type="button" name="" value="4" class="global" onclick="clickNumber(4)"/>
+        <input type="button" name="" value="5" class="global" onclick="clickNumber(5)"/>
+        <input type="button" name="" value="6" class="global" onclick="clickNumber(6)"/>
+        <input type="button" name="" value="X" class="global" onclick="multiply()"/>
+      </div>
+      <div class="fourth-row">
+        <input type="button" name="" value="1" class="global" onclick="clickNumber(1)"/>
+        <input type="button" name="" value="2" class="global" onclick="clickNumber(2)"/>
+        <input type="button" name="" value="3" class="global" onclick="clickNumber(3)"/>
+        <input type="button" name="" value="-" class="global" onclick="minus()"/>
+      </div>
+      <div class="conflict">
+        <div class="left">
+          <input type="button" name="" value="0" class="big" onclick="clickNumber(0)"/>
+          <input type="button" name="" value="." class="small" onclick="clickNumber('.')"/>
+          <input
+            type="button"
+            name=""
+            value="Del"
+            class="red small white-text top-margin"
+            onclick="clean()"
+          />
+          <input
+            type="button"
+            name=""
+            value="="
+            class="green white-text big top-margin"
+            onclick="result()"
+          />
+        </div>
+        <div class="right">
+          <input type="button" name="" value="+" class="global grey plus" onclick="plus()"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
