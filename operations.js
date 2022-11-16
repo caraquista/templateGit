@@ -5,7 +5,7 @@ function plus() {
     // USUARIO 1
     // const number = document.getElementById('result')
     // USUARIO 2
-    // numbers.push(+number.value);
+    numbers.push(+number.value);
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
@@ -17,7 +17,7 @@ function minus() {
     // USUARIO 1
     // const number = document.getElementById('result')
     // USUARIO 2
-    // numbers.push(+number.value);
+    numbers.push(+number.value);
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
@@ -28,7 +28,7 @@ function divide() {
     // USUARIO 1
     // const number = document.getElementById('result')
     // USUARIO 2
-    // numbers.push(+number.value);
+    numbers.push(+number.value);
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
@@ -39,7 +39,7 @@ function multiply() {
     // USUARIO 1
     // const number = document.getElementById('result')
     // USUARIO 2
-    // numbers.push(+number.value);
+    numbers.push(+number.value);
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
@@ -50,7 +50,7 @@ function clean() {
     // USUARIO 1
     // const number = document.getElementById('result')
     // USUARIO 2
-    // const value = number.value;
+    const value = number.value;
     // USUARIO 3
     // const result = value.slice(0, -1);
     // USUARIO 4
@@ -61,7 +61,7 @@ function clean() {
     // USUARIO 1
     // const number = document.getElementById('result')
     // USUARIO 2
-    // number.value = number.value.slice(0, -1);
+    number.value = number.value.slice(0, -1);
     // USUARIO 3
     // numbers = [];
     // USUARIO 4
@@ -73,7 +73,7 @@ function result() {
     // const number = document.getElementById('result')
     // numbers.push(+number.value);
     // USUARIO 2
-    // console.log(number.value, numbers, operators);
+    console.log(number.value, numbers, operators);
     // USUARIO 3
     // let result = 0;
     // for (let i = 0; i < numbers.length -1 ; i++) {
