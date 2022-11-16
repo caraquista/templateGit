@@ -3,7 +3,7 @@ let operators = [];
 
 function plus() {
     // USUARIO 1
-    // const number = document.getElementById('result')
+     const number = document.getElementById('result')
     // USUARIO 2
     numbers.push(+number.value);
     // USUARIO 3
@@ -15,7 +15,7 @@ function plus() {
     // 
 function minus() {
     // USUARIO 1
-    // const number = document.getElementById('result')
+    const number = document.getElementById('result')
     // USUARIO 2
     numbers.push(+number.value);
     // USUARIO 3
@@ -26,7 +26,7 @@ function minus() {
 
 function divide() {
     // USUARIO 1
-    // const number = document.getElementById('result')
+     const number = document.getElementById('result')
     // USUARIO 2
     numbers.push(+number.value);
     // USUARIO 3
@@ -37,7 +37,7 @@ function divide() {
 
 function multiply() {
     // USUARIO 1
-    // const number = document.getElementById('result')
+     const number = document.getElementById('result')
     // USUARIO 2
     numbers.push(+number.value);
     // USUARIO 3
@@ -48,7 +48,7 @@ function multiply() {
 
 function clean() {
     // USUARIO 1
-    // const number = document.getElementById('result')
+     const number = document.getElementById('result')
     // USUARIO 2
     const value = number.value;
     // USUARIO 3
@@ -59,7 +59,7 @@ function clean() {
 
 function clean() {
     // USUARIO 1
-    // const number = document.getElementById('result')
+     const number = document.getElementById('result')
     // USUARIO 2
     number.value = number.value.slice(0, -1);
     // USUARIO 3
@@ -70,8 +70,8 @@ function clean() {
 
 function result() {
     // USUARIO 1
-    // const number = document.getElementById('result')
-    // numbers.push(+number.value);
+    const number = document.getElementById('result')
+     numbers.push(+number.value);
     // USUARIO 2
     console.log(number.value, numbers, operators);
     // USUARIO 3
