@@ -6,5 +6,5 @@ function clickNumber (number) {
     // USUARIO 3
     // console.log('value', value);
     // USUARIO 4
-    // value.value = value.value +''+ number; 
+    value.value = value.value +''+ number; 
 };
