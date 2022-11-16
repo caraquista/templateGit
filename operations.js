@@ -9,7 +9,7 @@ function plus() {
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
-    // operators.push('+');
+    operators.push('+');
 };
 // USUARIO 1
     // 
@@ -21,7 +21,7 @@ function minus() {
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
-    // operators.push('-');
+    operators.push('-');
 };
 
 function divide() {
@@ -32,7 +32,7 @@ function divide() {
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
-    // operators.push('/');
+    operators.push('/');
 };
 
 function multiply() {
@@ -43,7 +43,7 @@ function multiply() {
     // USUARIO 3
     // number.value = '';
     // USUARIO 4
-    // operators.push('*');
+    operators.push('*');
 };
 
 function clean() {
@@ -54,7 +54,7 @@ function clean() {
     // USUARIO 3
     // const result = value.slice(0, -1);
     // USUARIO 4
-    // number.value = result;
+    number.value = result;
 }
 
 function clean() {
@@ -65,7 +65,7 @@ function clean() {
     // USUARIO 3
     // numbers = [];
     // USUARIO 4
-    // operators = [];
+    operators = [];
 }
 
 function result() {
@@ -81,7 +81,7 @@ function result() {
     //     result += eval(((result <= 0) ? numbers[i] : result) +operators[i]+numbers[i+1]);
     // }
     // USUARIO 4
-    // operators = [];
-    // numbers = [];
-    // number.value = result;
+    operators = [];
+    numbers = [];
+    number.value = result;
 }
